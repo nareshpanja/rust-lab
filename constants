@@ -1,0 +1,9 @@
+const INT_CONST: i32 = 100;
+const FLOAT_CONST: f64 = 3.1415;
+const BOOL_CONST: bool = true;
+const CHAR_CONST: char = 'R';
+
+fn main() {
+    println!("Constants => INT: {}, FLOAT: {}, BOOL: {}, CHAR: {}", 
+             INT_CONST, FLOAT_CONST, BOOL_CONST, CHAR_CONST);
+}
