@@ -1,0 +1,7 @@
+fn main() {
+    let x = 42; // i32 by default
+    let y = 3.14; // f64 by default
+    let name = "Rust"; // &str
+
+    println!("x = {}, y = {}, name = {}", x, y, name);
+}
