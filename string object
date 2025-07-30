@@ -1,0 +1,7 @@
+fn main() {
+    let literal = "Hello, Rust!"; // &str
+    let string_object = literal.to_string(); // Convert to String
+
+    println!("String Literal: {}", literal);
+    println!("String Object: {}", string_object);
+}
